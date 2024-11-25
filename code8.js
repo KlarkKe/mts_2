@@ -9,7 +9,7 @@ gdjs.WinnerScreenCode.GDnextLvl_9595ButtonObjects3= [];
 
 
 gdjs.WinnerScreenCode.mapOfGDgdjs_9546WinnerScreenCode_9546GDnextLvl_95959595ButtonObjects1Objects = Hashtable.newFrom({"nextLvl_Button": gdjs.WinnerScreenCode.GDnextLvl_9595ButtonObjects1});
-gdjs.WinnerScreenCode.userFunc0xce66f0 = function GDJSInlineCode(runtimeScene) {
+gdjs.WinnerScreenCode.userFunc0x8b1fd0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
     if (window.Telegram && Telegram.WebApp) {
         Telegram.WebApp.close();
@@ -22,30 +22,12 @@ gdjs.WinnerScreenCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.WinnerScreenCode.userFunc0xce66f0(runtimeScene);
+gdjs.WinnerScreenCode.userFunc0x8b1fd0(runtimeScene);
 
 }
 
 
 };gdjs.WinnerScreenCode.eventsList1 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
-if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "button-11.wav", false, 100, 1);
-}
-{ //Subevents
-gdjs.WinnerScreenCode.eventsList0(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.WinnerScreenCode.eventsList2 = function(runtimeScene) {
 
 {
 
@@ -98,13 +80,13 @@ isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGa
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.WinnerScreenCode.eventsList1(runtimeScene);} //End of subevents
+gdjs.WinnerScreenCode.eventsList0(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.WinnerScreenCode.eventsList3 = function(runtimeScene) {
+};gdjs.WinnerScreenCode.eventsList2 = function(runtimeScene) {
 
 {
 
@@ -116,13 +98,13 @@ if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "button-11.wav", false, 100, 1);
 }
 { //Subevents
-gdjs.WinnerScreenCode.eventsList2(runtimeScene);} //End of subevents
+gdjs.WinnerScreenCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.WinnerScreenCode.eventsList4 = function(runtimeScene) {
+};gdjs.WinnerScreenCode.eventsList3 = function(runtimeScene) {
 
 {
 
@@ -202,7 +184,7 @@ isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.WinnerScreenCode.map
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.WinnerScreenCode.eventsList3(runtimeScene);} //End of subevents
+gdjs.WinnerScreenCode.eventsList2(runtimeScene);} //End of subevents
 }
 
 }
@@ -220,7 +202,7 @@ gdjs.WinnerScreenCode.GDnextLvl_9595ButtonObjects1.length = 0;
 gdjs.WinnerScreenCode.GDnextLvl_9595ButtonObjects2.length = 0;
 gdjs.WinnerScreenCode.GDnextLvl_9595ButtonObjects3.length = 0;
 
-gdjs.WinnerScreenCode.eventsList4(runtimeScene);
+gdjs.WinnerScreenCode.eventsList3(runtimeScene);
 gdjs.WinnerScreenCode.GDwinOrloose_9595bgObjects1.length = 0;
 gdjs.WinnerScreenCode.GDwinOrloose_9595bgObjects2.length = 0;
 gdjs.WinnerScreenCode.GDwinOrloose_9595bgObjects3.length = 0;
