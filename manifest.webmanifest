@@ -1,0 +1,12 @@
+{
+  "name": "MTS_Backpack",
+  "short_name": "MTS_Backpack",
+  "id": "com.example.backpackInventory",
+  "description": "",
+  "orientation": "any",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
