@@ -9,7 +9,7 @@ gdjs.WinnerScreenCode.GDnextLvl_9595ButtonObjects3= [];
 
 
 gdjs.WinnerScreenCode.mapOfGDgdjs_9546WinnerScreenCode_9546GDnextLvl_95959595ButtonObjects1Objects = Hashtable.newFrom({"nextLvl_Button": gdjs.WinnerScreenCode.GDnextLvl_9595ButtonObjects1});
-gdjs.WinnerScreenCode.asyncCallback8158612 = function (runtimeScene, asyncObjectsList) {
+gdjs.WinnerScreenCode.asyncCallback10552004 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.WinnerScreenCode.localVariables);
 gdjs.WinnerScreenCode.localVariables.length = 0;
 }
@@ -22,7 +22,7 @@ gdjs.WinnerScreenCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.WinnerScreenCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.WinnerScreenCode.asyncCallback8158612(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.WinnerScreenCode.asyncCallback10552004(runtimeScene, asyncObjectsList)));
 }
 }
 
